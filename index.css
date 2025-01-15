@@ -92,7 +92,7 @@ body{
 .contact:hover{
     color: rgb(5, 5, 117);
 }
-@media(max-width:300px){
+@media(max-width:360px){
     
    .ABOUT p{
         display: block;
@@ -154,14 +154,14 @@ body{
  }
  .college-ughelli h1{
     color: white;
-    left: 630px;
+    align-item:center;
     bottom: 150px;
     position: absolute;
  }
- @media(max-width:300px){
+ @media(max-width:360px){
     .college-ughelli h1{
         color: white;
-        left: 55px;
+        align-item:center;
         font-size: 19px;
         bottom: 150px;
         position: absolute;
@@ -170,7 +170,7 @@ body{
  @media(max-width:900px){
     .college-ughelli h1{
         color: white;
-        left: 80px;
+        align-item:center;
         font-size: 22px;
         bottom: 150px;
         position: absolute;
@@ -185,7 +185,7 @@ body{
  .official-span{
     border-bottom: 4px solid red;
  }
- @media(max-width:300px){
+ @media(max-width:360px){
     .official{
         margin-top:500PX;
         display: flex;
@@ -227,7 +227,7 @@ body{
     text-align: center;
     justify-content: center;
  }
- @media(max-width:300px){
+ @media(max-width:360px){
     .history p{
         line-height: 25px;
         font-size: 16px;
@@ -307,7 +307,7 @@ body{
         
      }
  }
- @media(max-width:300px){
+ @media(max-width:360px){
     .principal-message{
         margin-top: 405px;
         margin-left: 10px;
@@ -317,6 +317,23 @@ body{
         font-size: 23px;
         width: 410px;
      }
+     .home-college{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-between;
+     }
+     .home-college img{
+        width: 500px;
+        margin-left:0px;
+     }
+     .home-college p{
+        font-size: 15px;
+        color: gray;
+        line-height: 25px;
+        
+     }
+ }
  }
  /*-------sixth section--------*/
  .ORGANISATIONAL{
@@ -374,7 +391,7 @@ body{
  }
  .image-div{
     display: grid;
-    width: 80%;
+    width: 100%;
     margin-left: 150px;
     column-gap: 100px;
     row-gap: 100px;
@@ -382,7 +399,7 @@ body{
  }
 
  .image-div img{
-    width: 400px;
+    width:400px;
  }
  .area-view{
     height: 300px;
@@ -412,7 +429,7 @@ body{
       align-items:start;
     }
  }
- @media(max-width:300px){
+ @media(max-width:360px){
     .gallery-div{
         font-size:18px;
         margin-left:0;
@@ -560,7 +577,7 @@ body{
       margin-bottom: 10px;
     }
  }
- @media(max-width:300px){
+ @media(max-width:360px){
    .SCHOOL-NEWS{
       margin-top:40PX;
       font-size: 18px;
@@ -626,7 +643,7 @@ body{
       padding-left: 30PX;
    }
  }
- @media(max-width:300px){
+ @media(max-width:360px){
    .last-div{
       display: flex;
       flex-direction: column;
