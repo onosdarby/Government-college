@@ -85,7 +85,31 @@ body {
 .register:hover {
     background-color: darkred;
 }
-
+.school{
+    color: grey;
+    cursor: pointer;
+}
+.us:hover{
+    color: rgb(5, 5, 117);
+}
+.branches:hover{
+    color: rgb(5, 5, 117);
+}
+.project:hover{
+    color: rgb(5, 5, 117);
+}
+.award:hover{
+    color: rgb(5, 5, 117);
+}
+.event:hover{
+    color: rgb(5, 5, 117);
+}
+.gallery:hover{
+    color: rgb(5, 5, 117);
+}
+.contact:hover{
+    color: rgb(5, 5, 117);
+}
 /* Responsive Media Queries */
 @media (max-width: 900px) {
     .ABOUT {
@@ -124,7 +148,8 @@ body {
 
 /* Section Styling */
 .college-ughelli {
-    background: url('first img.jpeg') center / cover no-repeat, rgba(4, 9, 30, 0.7);
+    background: url('first img.jpeg');
+    background-color: rgba(4,9,30,0.7);
     height: 400px;
     position: relative;
     color: white;
@@ -147,9 +172,155 @@ body {
 @media (max-width: 600px) {
     .college-ughelli h1 {
         font-size: 1.2rem;
+        padding-left:55px;
     }
 }
+ .official{
+    margin-top:500PX;
+    display: flex;
+    margin-left: 250PX;
+    width: 600PX;
+ }
+ .official-span{
+    border-bottom: 4px solid red;
+ }
+ @media(max-width:600px){
+    .official{
+        margin-top:500PX;
+        display: flex;
+        margin-left: 20PX;
+        font-size: 16px;
+     }
+     .official-span{
+        border-bottom: 4px solid red;
+     }  
+ }
+ /*--------fouth section-------*/
+ .history{
+    background-image:url(building.jpg);
+    background-color: yellow;
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+ }
+ .history p{
+    line-height: 30px;
+    font-size: 17px;
+ }
+ .center-history{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+ }
+ @media(max-width:600px){
+    .history p{
+        line-height: 25px;
+        font-size: 16px;
+        color: white;
+     }
+     .history h1{
+        color: white;
+     }
+ }
+ @media(max-width:900px){
+    .history p{
+        line-height: 25px;
+        font-size: 16px;
+        color: white;
+     }
+     .history h1{
+        color: white;
+     }
+ }
 
+ .principal-message{
+    margin-top: 330px;
+    margin-left: 200px;
+
+ }
+ .principal-message h1{
+    font-size: 40px;
+    width: 500px;
+ }
+ .principal-message p{
+    font-weight:bold;
+    padding-top: 8px;
+    cursor: pointer;
+ }
+ .pri-span{
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(184, 9, 9); 
+ }
+ .home-college{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content:space-between;
+ }
+ .home-college img{
+    width: 500px;
+    margin-left: 150px;
+ }
+ .home-college p{
+    font-size: 15px;
+    color: gray;
+    
+ }
+ @media(max-width:900px){
+    .principal-message{
+        margin-top: 400px;
+        margin-left: 20px;
+    
+     }
+     .principal-message h1{
+        font-size: 35px;
+        width: 400px;
+     }
+     .home-college{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-between;
+     }
+     .home-college img{
+        width: 500px;
+        margin-left:0px;
+     }
+     .home-college p{
+        font-size: 15px;
+        color: gray;
+        line-height: 25px; 
+     }
+ }
+ @media(max-width:600px){
+    .principal-message{
+        margin-top: 405px;
+        margin-left: 10px;
+    
+     }
+     .principal-message h1{
+        font-size: 23px;
+        width: 410px;
+     }
+          .home-college{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content:space-between;
+     }
+     .home-college img{
+        width: 500px;
+        margin-left:0px;
+     }
+     .home-college p{
+        font-size: 15px;
+        color: gray;
+        line-height: 25px;
+        
+     }
+ }
 /* Footer */
 .last-div {
     display: flex;
