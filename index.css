@@ -171,9 +171,10 @@ body {
     color: rgb(250, 172, 27);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .last-div {
         flex-direction: column;
         text-align: center;
     }
 }
+
