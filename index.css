@@ -505,7 +505,7 @@ body {
    }
     .school-div{
       display:flex;
-      margin-top:100PX;
+      margin-top:1000PX;
       flex-direction:row;
       align-items:start;
       justify-content:left;
@@ -556,10 +556,9 @@ body {
    }
     .school-div{
       display: flex;
-      margin-top:100PX;
+      margin-top:1000PX;
       flex-direction:column;
       align-items:start;
-      margin-top:2000PX;
       justify-content:left;
     }
     .school-div img{
