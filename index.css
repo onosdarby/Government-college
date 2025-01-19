@@ -608,13 +608,18 @@ body {
 .last-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     color: white;
     background-color: black;
     padding: 20px 0;
     gap: 20px;
 }
+ .last-div h5:hover{
+   color:rgb(250, 172, 27) ;
+   cursor: pointer;
+   transition: 0.15s;
+ }
 
 .last-div h5 {
     transition: color 0.15s;
@@ -629,6 +634,7 @@ body {
     .last-div {
         flex-direction: column;
         text-align: center;
+        padding-left: 25PX;
+          justify-content:center;
     }
 }
-
