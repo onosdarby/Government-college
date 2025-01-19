@@ -438,10 +438,10 @@ body {
  }
  .SCHOOL-NEWS{
    margin-top:0px;
-   opacity:0;
+   opacity:0px;
    width:50px
    font-size: 20px;
-   margin-left: 140px;
+   margin-left:0px;
    margin-bottom: 50px;
  }
  .opacity{
@@ -490,14 +490,14 @@ body {
  @media( max-width:700PX){
    .opacity{
       margin-top:2PX;
-      font-size: 18px;
-      opacity:0;
+      font-size: 11px;
+      opacity:0px;
       margin-left:0px;
       margin-bottom: 50px;
     }
    .SCHOOL-NEWS{
    margin-top:0px;
-   opacity:1;
+   opacity:1px;
    width:350px
    font-size: 20px;
    margin-left: 140px;
@@ -505,7 +505,7 @@ body {
    }
     .school-div{
       display:flex;
-      margin-top:1000PX;
+      margin-top:100PX;
       flex-direction:row;
       align-items:start;
       justify-content:left;
@@ -541,14 +541,14 @@ body {
      .opacity{
       margin-top:2PX;
       font-size: 18px;
-      opacity:0;
+      opacity:0px;
       margin-left:0px;
       margin-bottom: 50px;
     }
      
    .SCHOOL-NEWS{
    margin-top:0px;
-   opacity:1;
+   opacity:1px;
    width:350px
    font-size: 20px;
    margin-left: 140px;
@@ -556,7 +556,7 @@ body {
    }
     .school-div{
       display: flex;
-      margin-top:1700PX;
+      margin-top:100PX;
       flex-direction:column;
       align-items:start;
       margin-top:2000PX;
