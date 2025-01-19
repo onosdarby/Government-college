@@ -488,6 +488,7 @@ body {
     }
     .school-div{
       display:flex;
+      margin-top:2000PX;
       flex-direction:row;
       align-items:start;
       justify-content:left;
@@ -528,6 +529,7 @@ body {
     }
     .school-div{
       display: flex;
+      margin-top:2000PX;
       flex-direction:column;
       align-items:start;
       margin-top:2000PX;
