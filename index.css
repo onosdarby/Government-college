@@ -178,17 +178,18 @@ body {
     }
 }
  .official{
-    margin-top:500PX;
+    margin-top:100PX;
     display: flex;
+    font-size: 1.2rem;
     margin-left: 250PX;
-    width: 600PX;
+    width: 500PX;
  }
  .official-span{
     border-bottom: 4px solid red;
  }
  @media(max-width:600px){
     .official{
-        margin-top:500PX;
+        margin-top:100PX;
         display: flex;
         margin-left: 20PX;
         font-size: 16px;
