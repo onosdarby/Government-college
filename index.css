@@ -479,9 +479,9 @@ body {
    font-size: 13px;
 
  }
- @media( max-width:1000PX){
+ @media( max-width:700PX){
    .SCHOOL-NEWS{
-      margin-top:50PX;
+      margin-top:1000PX;
       font-size: 18px;
       margin-left:0px;
       margin-bottom: 50px;
@@ -521,7 +521,7 @@ body {
    }
  @media(max-width:600px){
    .SCHOOL-NEWS{
-      margin-top:50PX;
+      margin-top:1000PX;
       font-size: 18px;
       margin-left:0px;
       margin-bottom: 50px;
