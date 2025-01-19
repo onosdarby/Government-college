@@ -481,14 +481,14 @@ body {
  }
  @media( max-width:700PX){
    .SCHOOL-NEWS{
-      margin-top:3000PX;
+      margin-top:4000PX;
       font-size: 18px;
       margin-left:0px;
       margin-bottom: 50px;
     }
     .school-div{
       display:flex;
-      margin-top:1700PX;
+      margin-top:1000PX;
       flex-direction:row;
       align-items:start;
       justify-content:left;
