@@ -481,14 +481,14 @@ body {
  }
  @media( max-width:700PX){
    .SCHOOL-NEWS{
-      margin-top:2000PX;
+      margin-top:3000PX;
       font-size: 18px;
       margin-left:0px;
       margin-bottom: 50px;
     }
     .school-div{
       display:flex;
-      margin-top:2000PX;
+      margin-top:1700PX;
       flex-direction:row;
       align-items:start;
       justify-content:left;
@@ -522,14 +522,14 @@ body {
    }
  @media(max-width:600px){
    .SCHOOL-NEWS{
-      margin-top:2000PX;
+      margin-top:3000PX;
       font-size: 18px;
       margin-left:0px;
       margin-bottom: 50px;
     }
     .school-div{
       display: flex;
-      margin-top:2000PX;
+      margin-top:1700PX;
       flex-direction:column;
       align-items:start;
       margin-top:2000PX;
